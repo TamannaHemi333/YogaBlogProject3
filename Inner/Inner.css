@@ -1,0 +1,51 @@
+/* Inner.css */
+
+.features123 {
+    padding: 2rem 0;
+    background-color:aquamarine;
+    text-align: center;
+  }
+  
+  .custom-heading123 {
+    color: #888;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .bold-text123 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .features p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 2rem;
+  }
+  
+  .container673 {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .row123 {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .item1673, .item2673, .item3673 {
+    flex: 1;
+  }
+  
+  .item1 img, .item2673 img, .item3673 img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+  
+  .item1673:hover img, .item2673:hover img, .item3673:hover img {
+    transform: scale(1.05);
+  }
+  

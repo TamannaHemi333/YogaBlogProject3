@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .item {
+    flex: 1;
+  }
+  .service {
+    padding: 50px 0;
+    background-color:tomato; /* Set background color to light gray */
+  }
+ 
+  
+  

@@ -1,0 +1,28 @@
+.aboutUs {
+
+    font-size: 24px;
+    font-weight: bold;
+    color:black;
+
+   
+   
+  }
+
+
+
+
+
+
+  .container1 {
+    background-color: aquamarine;
+    
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    align-items: center; /* Vertical centering */
+    height: 50vh;
+   
+   
+      
+  
+  }
+  

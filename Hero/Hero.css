@@ -1,0 +1,65 @@
+/* HeroSection.css */
+
+.hero {
+    background-image: url('https://images.unsplash.com/photo-1603988363607-e1e4a66962c6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+   
+    text-align:left;
+    color:cadetblue;
+  }
+  
+  .hero-content {
+    max-width: 800px;
+    padding: 20px;
+    margin-left: 20px;
+   
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .cta-btn {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color:brown;
+    color:aqua;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .cta-btn:hover {
+    background-color:black;
+  }
+  
+  .hero-image {
+    float:inline-start;
+    
+  }
+  .hero-image1 {
+    position:absolute;
+    top: 170px; /* Align the image 20px below the top */
+    right: 20px;
+    
+   
+  }
+  .hero-image {
+    position: absolute;
+    top:-5px; /* Align the image to the top */
+    right: 5px; /* Align the image to the right */
+  }
+  .hero {
+    position: relative; /* Make the container a positioning context */
+  }
+  

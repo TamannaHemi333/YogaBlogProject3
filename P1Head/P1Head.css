@@ -1,0 +1,16 @@
+.portfolio-header {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  .portfolio-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    background-color:aqua;
+  }
+  

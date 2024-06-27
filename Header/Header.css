@@ -1,0 +1,64 @@
+/* Header.css */
+body {
+  margin: 0px;
+}
+
+header {
+  background-color: antiquewhite; /* Background color of the header */
+  color: black; /* Text color */
+  padding: 20px 0; 
+}
+
+.container {
+  display: flex;
+  justify-content: space-between; /* Aligning items horizontally */
+  align-items: center; /* Aligning items vertically */
+}
+
+.logo img {
+  height: 50px; /* Adjust the height of the logo image */
+  width: auto; /* Let the width adjust automatically based on height */
+}
+
+nav ul {
+  list-style: none; /* Remove default list styles */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+}
+
+nav ul li {
+  display: inline-block; /* Display items inline */
+  margin-right: 20px; /* Add some spacing between list items */
+}
+
+
+
+
+
+/* Style for active links */
+ul li a.active {
+  text-decoration: underline; /* Default underline style for active links */
+}
+
+ul li a.active:hover {
+  text-decoration-color: red; /* Change this to your desired color */
+}
+
+ul li a.active:focus {
+  text-decoration-color: blue; /* Change this to your desired color */
+}
+
+/* Style for Home page */
+#Home ul li  a.active{
+  text-decoration-color: green; /* Change this to your desired color */
+}
+
+/* Style for Contact Us page */
+#ContactUs ul li a.active {
+  text-decoration-color: purple; /* Change this to your desired color */
+}
+
+
+  
+  
+  
